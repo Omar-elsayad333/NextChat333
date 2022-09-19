@@ -18,5 +18,14 @@ export const theme = createTheme({
     },
     typography: {
         fontFamily: 'Raleway'    
-    }
+    },
+    components: {
+        MuiCssBaseline: {
+            styleOverrides: {
+                body: {
+                    backgroundColor: "#e5e5e5",
+                },
+            },
+        },
+    },
 });
